@@ -3,8 +3,9 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
+use Jenssegers\Mongodb\Eloquent\Model as Eloquent;
 
-class Profile extends Model
+class Profile extends Eloquent
 {
     /**
      * The attributes that are mass assignable.
