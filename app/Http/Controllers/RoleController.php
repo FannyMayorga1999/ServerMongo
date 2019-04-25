@@ -33,7 +33,7 @@ class RoleController extends Controller
         return response()->json($role, 201);
     }
 
-    /*
+    
     public function put(Request $request){
         $data = $request->json()->all();
         $role = Role::findOrFail($data['id']);
@@ -42,7 +42,7 @@ class RoleController extends Controller
         ]);
         return response()->json($response, 201);
     }
-
+    /*
     public function delete(Request $request){
         $data = $request->json()->all();
         $role = Role::findOrFail($data['id']);
