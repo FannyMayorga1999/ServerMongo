@@ -17,6 +17,7 @@ class CreateUsersTable extends Migration
             $table->increments('id');
             $table->timestamps();
             $table->string('nombre',30);
+            $table->string('apellidos',30);
             $table->string('email',30);
             $table->string('contraseña',30);
             $table -> unsignedInteger ('idPerfil');

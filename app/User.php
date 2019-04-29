@@ -13,7 +13,12 @@ class User extends Eloquent
      * @var array
      */
     protected $fillable = [
-        'nombre', 'email', 'contraseña',
+        'nombre', 
+        'email', 
+        'contraseña',
+        'apellido',
+        'celular'
+
     ];
 
     function profile(){
